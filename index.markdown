@@ -1,6 +1,8 @@
-<table width="100%"><tr>
-<th>[CV](cv/cv.pdf)</th>
+<table width="100%">
+<tr>
+<th>[Resume](resume/resume.html)</th>
 <th>[LinkedIn](https://mx.linkedin.com/in/edblancas)</th>
 <th>[Github](https://github.com/edblancas/)</th>
-<th>[Twitter](https://twitter.com/edblancas)</th>
-</tr></table>
+<th>[Stack Overflow](http://stackoverflow.com/users/816993/edblancas)</th>
+</tr>
+</table>
