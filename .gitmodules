@@ -1,3 +1,6 @@
 [submodule "macdowell-cv"]
 	path = macdowell-cv
 	url = https://github.com/dnl-blkv/mcdowell-cv.git
+[submodule "indigo-jekyll"]
+	path = indigo-jekyll
+	url = https://github.com/sergiokopplin/indigo.git
