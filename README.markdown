@@ -1,3 +1,4 @@
 ## Update the Template
 `git submodule update macdowell-cv`
-`lualatex resume/resume.tex`
+`cd resume && lualatex resume.tex`
+`cd cv && lualatex cv.tex`

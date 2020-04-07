@@ -1,5 +1,2 @@
-resume/*.log
-resume/*.aux
-
-cv/*.log
-cv/*.aux
+*.log
+*.aux
