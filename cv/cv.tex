@@ -26,8 +26,20 @@
 % For mathematical symbols
 \usepackage{amsmath}
 
+% For links
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{colortbl}
+% http://latexcolor.com/
+\definecolor{cobalt}{rgb}{0.0, 0.28, 0.67}
+\definecolor{nocolor}{rgb}{1.0, 1.0, 1.0}
+% url colors
+\hypersetup{colorlinks=true, linkcolor=cobalt, urlcolor=cobalt}
+% table color
+\arrayrulecolor{nocolor}
+
 % Replace the original values of the mcdowellcv template
-\geometry{left=0.65in,top=0.5in,right=0.65in,bottom=0.5in} 
+\geometry{left=0.45in,top=0.45in,right=0.45in,bottom=0.45in} 
 
 % Set applicant's personal data for header
 \name{E. Daniel Blancas Reyes}
@@ -54,10 +66,17 @@
 				\item Coaching a small team to migrate the old microservices to a new event-based architecture; that resulted in a more robust infrastructure that power the Colombian's RappiPay B2B ecosystem.
 			\end{itemize}
 			\begin{itemize}
-				\item Built a solution that helped in the day to day settlement transactions processed by RappiPay systems with the Rappi's debit card. This led to an automated process and a more precise and rapid resolution to tens of thousands of support tickets for Mexico and Brasil.
+				\item Built a solution that helped in the day to day settlement transactions processed by RappiPay systems with Rappi's debit card. This led to an automated process and a more precise and rapid resolution to tens of thousands of support tickets for Mexico and Brasil.
 			\end{itemize}
 			\begin{itemize}
-				\item Developed new features in the RappiPay vertical, that helped to stabilize the functioning of the platform and make more attractive the use of the Rappi's debit card.
+				\item Developed new features in the RappiPay vertical, which helped to stabilize the functioning of the platform and make more attractive the use of Rappi's debit card.
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{}{Personal Time}{Sep 2018 -- Jul 2019}
+			\begin{itemize}
+				\item Took personal time to travel abroad and sharpen my english speaking and engineering skills.
+				\item GitHub Universe 2018 (San Francisco, CA), Clean Architecture Course by Robert C. Martin (NYC), and Summer English Course at UMass Boston by UNAM (Boston, MA).
 			\end{itemize}
 		\end{cvsubsection}
 
@@ -95,7 +114,9 @@
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
-	
+
+	\pagebreak
+
 	\begin{cvsection}{Education}
 		\begin{cvsubsection}{Mexico City}{Tec de Monterrey}{2005 -- 2012}
 			\begin{itemize}
@@ -123,5 +144,5 @@
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
-	
+
 \end{document}
